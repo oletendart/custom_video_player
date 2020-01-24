@@ -18,6 +18,7 @@ function togglePlay() {
 
 function updateButton() {
   const icon = this.pause ? "▶️" : "❚ ❚";
+  toggle.textContent = icon;
   console.log("Update the button");
 }
 
